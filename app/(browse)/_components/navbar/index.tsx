@@ -1,5 +1,6 @@
 import {Logo} from "./logo";
 import {Search} from "./search";
+import {Actions} from "./actions";
 
 export const Navbar = () => {
     return (
@@ -7,6 +8,8 @@ export const Navbar = () => {
             <Logo/>
 
             <Search/>
+
+            <Actions/>
             
         </nav>
     );
