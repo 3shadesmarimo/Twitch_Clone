@@ -5,12 +5,10 @@ export default function Home() {
     
     <div className='flex flex-col gap-y-4'>
       <h1>
-        Dashboard
+        Homepage
       </h1>
 
-      <UserButton
-        afterSignOutUrl='/'
-      />
+      
     </div>
 
   )
